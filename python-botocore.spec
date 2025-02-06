@@ -4,7 +4,7 @@
 Name:           python-%{pkgname}
 # NOTICE - Updating this package requires updating python-boto3
 Version:        1.20.14
-Release:        ROCKIT53.rc1%{?buildid}%{?dist}
+Release:        ROCKIT53.rc2%{?buildid}%{?dist}
 Summary:        Low-level, data-driven core of boto 3
 
 License:        ASL 2.0
@@ -48,6 +48,8 @@ rm -rf tests/integration
 
 %changelog
 * Thu Feb 06 2025 <devel@k2.cloud> - 1.20.14-ROCKIT53.rc1
+- test: second commit
+- test: first commit
 - paas: add method for kafka topics
 - iam: Add Tag support for IAM Users
 - iam: Add Tags into User shape
